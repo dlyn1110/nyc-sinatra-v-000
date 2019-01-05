@@ -6,7 +6,5 @@ class ApplicationController < Sinatra::Base
     erb :"application/index"
   end
 
-  post '/figures' do
-    "Hello World"
-  end
+  
 end
