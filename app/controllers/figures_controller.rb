@@ -7,11 +7,11 @@ class FiguresController < ApplicationController
  end
 
  get '/figures/new' do
-   binding.pry
    erb :'figures/new'
  end
 
   get '/figures/:id' do
+     binding.pry
     @figure = Figure.find(params[:id])
     erb:'/figures/show'
   end
