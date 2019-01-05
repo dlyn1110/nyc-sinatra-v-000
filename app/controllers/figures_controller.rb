@@ -15,7 +15,7 @@ class FiguresController < ApplicationController
     erb:'/figures/show'
   end
 
-  get '/figures/' do
+  post '/figures/' do
     binding.pry
   end
 end
