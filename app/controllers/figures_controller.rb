@@ -30,5 +30,5 @@ class FiguresController < ApplicationController
     end
 
 
-  end
+
 end
